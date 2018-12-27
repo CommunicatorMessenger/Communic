@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Communic</name>
+    <description>Decentralized P2P scalable messenger</description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.plasmmer.communic</app-id>
+    <unique-id>1a0mdkjfspcoo</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Custom</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="UI" sid="538434545119300">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="AJAX" sid="837044189710854">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="Browser" sid="891593712766923">
+            <plugin id="Browser" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>App.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>App sheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="AJAX" uid="1" />
+        <global-instance type="Browser" uid="2" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="app-common.css" />
+        <file name="bootstrap.min.js" />
+        <file name="dark-common.css" />
+        <file name="font.eot" />
+        <file name="font.ttf" />
+        <file name="font.woff" />
+        <file name="font.woff2" />
+        <file name="iconsfont.css" />
+        <file name="material.min.css" />
+        <file name="material.min.js" />
+        <file name="page-common.css" />
+        <file name="page-custom.css" />
+        <file name="popper.min.js" />
+        <file name="roboto-cyrillic.woff2" />
+        <file name="roboto-cyrillicext.woff2" />
+        <file name="robotofont.css" />
+        <file name="roboto-greek.woff2" />
+        <file name="roboto-greekext.woff2" />
+        <file name="roboto-latin.woff2" />
+        <file name="roboto-latinext.woff2" />
+        <file name="roboto-vietnamese.woff2" />
+        <file name="style.css" />
+        <file name="ZeroFrame.js" />
+        <file name="script.js" />
+    </files-folder>
+</c2project>

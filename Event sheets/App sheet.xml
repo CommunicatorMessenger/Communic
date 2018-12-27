@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>App sheet</name>
+    <events>
+        <event-block sid="239974219589881">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="103982725417854" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Import CSS file" sid="424709227250333" type="UI">
+                    <param id="0" name="CSS file">&quot;style.css&quot;</param>
+                </action>
+                <action id="19" name="Include Javascript file" sid="161718588591813" type="UI">
+                    <param id="0" name="Javascript file">&quot;ZeroFrame.js&quot;</param>
+                </action>
+                <action id="19" name="Include Javascript file" sid="422727333044199" type="UI">
+                    <param id="0" name="Javascript file">&quot;script.js&quot;</param>
+                </action>
+                <action id="19" name="Include Javascript file" sid="298337223351392" type="UI">
+                    <param id="0" name="Javascript file">&quot;popper.min.js&quot;</param>
+                </action>
+                <action id="19" name="Include Javascript file" sid="459707586811474" type="UI">
+                    <param id="0" name="Javascript file">&quot;bootstrap.min.js&quot;</param>
+                </action>
+                <action id="19" name="Include Javascript file" sid="960376770950032" type="UI">
+                    <param id="0" name="Javascript file">&quot;material.min.js&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="749001115953584" type="UI">
+                    <param id="0" name="CSS file">&quot;material.min.css&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="179480635131710" type="UI">
+                    <param id="0" name="CSS file">&quot;page-common.css&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="215803836668169" type="UI">
+                    <param id="0" name="CSS file">&quot;page-custom.css&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="893834889921671" type="UI">
+                    <param id="0" name="CSS file">&quot;app-common.css&quot;</param>
+                </action>
+                <action disabled="1" id="2" name="Import CSS file" sid="630710948793961" type="UI">
+                    <param id="0" name="CSS file">&quot;dark-common.css&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="993376654093715" type="UI">
+                    <param id="0" name="CSS file">&quot;robotofont.css&quot;</param>
+                </action>
+                <action id="2" name="Import CSS file" sid="351794796130920" type="UI">
+                    <param id="0" name="CSS file">&quot;iconsfont.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
