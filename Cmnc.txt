@@ -1,3 +1,6 @@
 Conditional audio speed detecting speech speed
 
 birthday posts integrated
+
+cmmnctr:
+- trscrb aud
